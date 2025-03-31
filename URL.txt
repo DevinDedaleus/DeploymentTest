@@ -2,6 +2,12 @@ https://www.youtube.com/watch?v=EWAzIUS7Knk
 
 This is the video I followed to deploy.
 
-run this to deploy
+
+Run this to build to your distr folder:
+
+ng build --base-href "https://DevinDedaleus.github.io/DeploymentTest/"
+
+
+run this to deploy what you just built:
 
 npx angular-cli-ghpages --dir=dist/deployment-test/browser
